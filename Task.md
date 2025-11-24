@@ -28,6 +28,7 @@ High
 Add `<label>` tags or `aria-label` attributes for all form fields.
 
 **1. Image Not Fully Displayed and No Scroll Bar**
+
 **Title:** Robot image not fully displayed at 100% zoom; no scroll bar available
 WCAG Criteria Violated: 1.4.10 Reflow, 1.4.4 Resize Text
 
@@ -58,6 +59,7 @@ Set max-width: 100% and height: auto on the image.
 Contains image within a scrollable container, or ensure layout adapts at different zoom levels.
 
 **2. Focus Styles Inconsistent Across Devices**
+
 **Title:**Focus indicator for input fields only appears on mobile, not desktop
 WCAG Criteria Violated: 2.4.7 Focus Visible
 
@@ -89,6 +91,7 @@ input:focus, textarea:focus {
 }
 
 **3. ‘Done’ Button Misalignment with Form Controls**
+
 **Title:**‘Done’ button is not visually aligned with input fields
 WCAG Criteria Violated: 1.3.2 Meaningful Sequence
 Severity: Low to Medium
