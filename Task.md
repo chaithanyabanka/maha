@@ -27,7 +27,7 @@ High
 **Suggested Fix:**  
 Add `<label>` tags or `aria-label` attributes for all form fields.
 
-# Image Not Fully Displayed and No Scroll Bar
+1. Image Not Fully Displayed and No Scroll Bar
 Title: Robot image not fully displayed at 100% zoom; no scroll bar available
 WCAG Criteria Violated: 1.4.10 Reflow, 1.4.4 Resize Text
 Severity: Medium
