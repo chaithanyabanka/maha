@@ -60,29 +60,29 @@ This project contains a Playwright + TypeScript based automated UI test suite fo
 # Setup Instructions
 
 1. Clone the repository:
-
-git clone <your-repo-url>
-cd <your-repo-folder>
-
+   ```bash
+   git clone <your-repo-url>
+   cd <your-repo-folder>
+   ```
 
 2. Install dependencies:
-
-npm install
-
+   ```bash
+   npm install
+   ```
 
 ---
 
 # Running Tests
 
 Run all tests headlessly:
-
+```bash
 npx playwright test
-
+```
 
 Run tests with browser UI visible:
-
+```bash
 npx playwright test --headed
-
+```
 
 ---
 
@@ -90,8 +90,9 @@ npx playwright test --headed
 
 After tests run, generate and view an HTML report with:
 
+```bash
 npx playwright show-report
-
+```
 
 ---
 
@@ -118,3 +119,4 @@ Test inputs and expected results are dynamically loaded from `public/data/testDa
 - Broaden test coverage with negative and edge cases
 - Integrate accessibility testing and reporting
 - Add CI/CD pipeline for automated validation
+
