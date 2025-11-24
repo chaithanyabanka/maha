@@ -9,28 +9,9 @@
 
 ### Detailed Bug Report
 
-**Title:** Form fields missing accessible labels
-**Steps to Reproduce:**
-1. Open the page.
-2. Use a screen reader or inspect each input/textarea.
-3. Note there’s no label associated with any field.
-
-**Expected Result:**  
-Screen reader announces each field’s label.
-
-**Actual Result:**  
-Only placeholder text is announced; purpose unclear.
-
-**Severity:**  
-High
-
-**Suggested Fix:**  
-Add `<label>` tags or `aria-label` attributes for all form fields.
-
 **1. Image Not Fully Displayed and No Scroll Bar**
 
-**Title:** Robot image not fully displayed at 100% zoom; no scroll bar available
-WCAG Criteria Violated: 1.4.10 Reflow, 1.4.4 Resize Text
+**Title:** Robot image not fully displayed at 100% zoom; no scroll bar available.
 
 **Severity:**
 Medium
@@ -51,23 +32,16 @@ Robot image should be fully visible at 100% zoom, or scroll bars should appear t
 **Actual Result:**
 Part of the robot image is hidden off-screen, and users cannot scroll to view the full image.
 
-**Suggested Fix:**  
-Use responsive CSS:
-
-Set max-width: 100% and height: auto on the image.
-
-Contains image within a scrollable container, or ensure layout adapts at different zoom levels.
 
 **2. Focus Styles Inconsistent Across Devices**
 
-**Title:**Focus indicator for input fields only appears on mobile, not desktop
-WCAG Criteria Violated: 2.4.7 Focus Visible
+**Title:** Focus indicator for input fields only appears on mobile, not desktop.
 
 **Severity:** Medium
 
 **Steps to Reproduce:**
 
-1. Open the page in a desktop browser.
+1. Open the html page in a desktop browser.
 
 2. Tab into or click each input field and textarea.
 
@@ -81,24 +55,17 @@ All interactive form controls should show a clearly visible and consistent focus
 **Actual Result:**
 Focus indicator appears only on mobile view.
 
-**Suggested Fix:**  
-Add a CSS rule for desktop:
-
-css
-input:focus, textarea:focus {
-  border: 2px solid #FFA500;
-  outline: none;
-}
 
 **3. ‘Done’ Button Misalignment with Form Controls**
 
-**Title:**‘Done’ button is not visually aligned with input fields
+**Title:** ‘Done’ button is not visually aligned with input fields
 WCAG Criteria Violated: 1.3.2 Meaningful Sequence
-Severity: Low to Medium
+
+**Severity:** Low to Medium
 
 **Steps to Reproduce:**
 
-1. Open the contact page.
+1. Open the home page.
 
 2. Observe the position of the 'Done' button relative to the form fields.
 
@@ -110,14 +77,20 @@ Severity: Low to Medium
 **Actual Result:**
 Button appears offset or misaligned, creating a confusing layout.
 
-**Suggested Fix:**
-Use CSS flexbox or grid for layout:
+**4. Missing accessible labels **
+**Title:** Form fields missing accessible labels
+**Steps to Reproduce:**
+1. Open the page.
+2. Use a screen reader or inspect each input/textarea.
+3. Note there’s no label associated with any field.
 
-css
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch; /* Or align-items: center; as appropriate */
-}
-Test alignment on all devices and browser widths.
+**Expected Result:**  
+Screen reader announces each field’s label.
+
+**Actual Result:**  
+Only placeholder text is announced; purpose unclear.
+
+**Severity:**  
+High
+
 
