@@ -78,12 +78,11 @@ WCAG Criteria Violated: 1.3.2 Meaningful Sequence
 Button appears offset or misaligned, creating a confusing layout.
 
 
-**4. Missing accessible labels **
+**4. Missing accessible labels**
 
 **Title:** Form fields missing accessible labels
 
-**Severity:**  
-High
+**Severity:**  High
 
 **Steps to Reproduce:**
 1. Open the page.
