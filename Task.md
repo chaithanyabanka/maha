@@ -77,6 +77,7 @@ WCAG Criteria Violated: 1.3.2 Meaningful Sequence
 **Actual Result:**
 Button appears offset or misaligned, creating a confusing layout.
 
+
 **4. Missing accessible labels **
 
 **Title:** Form fields missing accessible labels
