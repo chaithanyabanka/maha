@@ -120,3 +120,7 @@ Test inputs and expected results are dynamically loaded from `public/data/testDa
 - Integrate accessibility testing and reporting
 - Add CI/CD pipeline for automated validation
 
+# See [Task.md](./Task.md) for the full accessibility review and bug reports.
+
+
+
